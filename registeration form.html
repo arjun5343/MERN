@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+   <form>
+    <fieldset>
+        <legend>REGISTER</legend>
+        
+        <label for="username">username</label>
+        <input type="text" name="username" id="username" required><br>
+        <label for="email">email</label>
+        <input type="email" name="email" id="email" required><br>
+        <label for="phonenumber">phonenumber</label>
+        <input type="tel" name="phonenumber" id="phonenumber" required><br>
+        <label>gender</label>
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="male">
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="female">
+        <label for="other">other</label>
+        <input type="radio" name="gender" id="other"><br>
+        <label for="password">password</label>
+        <input type="password" name="password" id="password"> required<br>
+        <label for=" confirmpassword">confirmpassword</label>
+        <input type="password" name=" confirmpassword" id="confirmpassword" requireds><br>
+        <input type="checkbox"><label>terms and conditions</label><br>
+        <input type="submit">
+        <input type="reset">
+        <textarea name="registerform>" rows="5" cols="6" style="resize:none"></textarea>
+        <select name="nameofperson">
+            <option >firstname</option>
+            <option>lastname</option>
+        </select>
+        <datalist id="animals">
+            <option>cat</option>
+            <option>dog</option>
+            <option>elephant</option>
+        </datalist>
+            <input type="text" list="animals">
+        
+    </fieldset>
+   </form> 
+    
+</body>
+</html>

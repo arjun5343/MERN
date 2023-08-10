@@ -1,0 +1,44 @@
+html,body{margin: 0%;
+    height:100%;
+    width: 100%;
+}
+body{
+    background: url("1arj.png");
+    background-size: cover;
+}
+.dashboard{
+    height: 5rem;
+    width: 100%;
+    padding: 1.5rem;
+    background-color:burlywood;
+}
+img{height:100% ;
+    border-radius: 50%;
+  aspect-ratio: 1/1;
+  object-fit: fill;
+}
+
+
+
+span{
+    height: 100%;
+    line-height: 100%;
+    vertical-align: middle;
+}
+.dashboard{
+    
+   
+    line-height: 100%;
+    font-size: 2rem;
+    padding-inline: 0.8 rem;
+    font-weight: bold;
+    padding-block: 2rem;
+}
+.charging{height:100% ;
+    border-radius: 50%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+
+}
+
+
